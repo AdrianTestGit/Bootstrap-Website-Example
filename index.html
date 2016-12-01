@@ -30,8 +30,8 @@
 	</nav>
 	<!-- EMD of NAVIGATION -->
 
-	<header>
-		<div class="htop">
+	<header class="htop">
+		<div>
 			<h1>Your Company</h1>
 			<hr>
 
@@ -40,8 +40,16 @@
 		</div>
 	</header>
 
-	<section id="about">
+	<section id="about" class="msection">
 		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>Vestibcus, congue sit amet, tortor. Prae orci ac tortor. Nulla mi porttitor interdum. Donec auctor dignissim. Etiam vestibulum mauris niLorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+					<p>Duis tempor, sapien id ultrices posuere ligula faucibus orci mauris sit amet quam. Donec pulvinar ligula, in dolor. Aenean hasellus vestibulum. Cras aliquet. Donec ut malesuada aliquet. Praesent ante. Donec lectus semper quis, luctus nisl. Nam diam. Donec nunc. Quisque quLorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+					<p>Cras aliquet. Donec ut malesuada aliquet. Praesent ante. Donec lectus semper quis, luctus nisl. Nam diam. Donec nunc. Quisque quLorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+					<p>Aliquam orci. Nullam augue eget nulla. Cras non orci. Nunc justo. Quisque vehicula viverra. Pellentesque ut nonummy sed, rutrum ut, porta neque. In ornare egestas non, lobortis sed, viverra auctor, ante quis ultricies leo. Integer adipiscing. Nam eget massa. Duis tempor, sapien id ultrices posuere ligula faucibus orci mauris sit amet quam. Donec pulvinar ligula, in dolor. Aenean hasellus vestibulum. Cras aliquet. Donec ut malesuada aliquet. Praesent ante. Donec lectus semper quis, luctus nisl. Nam diam. Donec nunc. Quisque quLorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+				</div>
+			</div>		
 			<div class="row">
 				<div class="col-md-3 text-xs-center">
 					<h3>One</h3>
@@ -63,7 +71,7 @@
 		</div>
 	</section>
 
-	<section id="products">
+	<section id="products" class="msection">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 text-xs-center">
@@ -139,7 +147,7 @@
 		</div>
 	</section>
 
-	<section id="more">
+	<section id="more" class="msection">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -167,10 +175,45 @@
 	</aside>
 
 	<section id="contact">
-		<div></div>
+		<div class="container">
+			<form>
+				<fieldset>
+					<div class="form-group">
+						<label for="uname" class="control-label col-md-4">Username</label>
+						<div class="col-md-8">
+							<input type="text" name="uname" id="uname" placeholder="Please enter your name" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="uname" class="control-label col-md-4">Username</label>
+						<div class="col-md-8">
+							<input type="text" name="uname" id="uname" placeholder="Please enter your name" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="uemail" class="control-label col-md-4">Email</label>
+						<div class="col-md-8">
+							<input type="email" name="uemail" id="uemail" placeholder="Email address" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="umessage" class="control-label col-md-4">Message</label>
+						<div class="col-md-8">
+							<textarea class="form-control" name="umessage" id="umessage"></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-md-4"></label>
+						<div class="col-md-4">
+							<button type="submit" class="btn btn-primary">Send message</button>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
 	</section>
 
-	<footer>
+	<footer class="text-xs-center footerA">
 		&copy; Copyright info 2016
 	</footer>
 	
